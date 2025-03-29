@@ -1,0 +1,57 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282828;
+    color: white;
+    flex-direction: column;
+}
+
+/* Game Container */
+.game-container {
+    text-align: center;
+}
+
+/* Canvas Styling */
+#gameCanvas {
+    border: 2px solid white;
+    background-color: black;
+    margin-top: 20px;
+}
+
+/* Score and Chances Styling */
+#score, #chances {
+    font-size: 24px;
+}
+
+/* Game Over Message */
+#gameOver {
+    font-size: 24px;
+    color: red;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #2980b9;
+}
